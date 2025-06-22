@@ -1,0 +1,58 @@
+# Gradle
+  .gradle/
+  build/
+  gradle-app.setting
+  !gradle-wrapper.jar
+  !gradle-wrapper.properties
+  !gradle/
+
+  # IDE
+  .idea/
+  *.iml
+  *.ipr
+  *.iws
+  .vscode/
+  .settings/
+  .project
+  .classpath
+  bin/
+
+  # Eclipse
+  .metadata/
+  .recommenders/
+
+  # IntelliJ IDEA
+  out/
+  *.iml
+  *.ipr
+  *.iws
+
+  # Minecraft Development Kit
+  run/
+  logs/
+  crash-reports/
+  .mixin.out/
+
+  # OS
+  .DS_Store
+  .DS_Store?
+  ._*
+  .Spotlight-V100
+  .Trashes
+  ehthumbs.db
+  Thumbs.db
+
+  # Temporary files
+  *.tmp
+  *.bak
+  *.swp
+  *~.nib
+
+  # Other
+  *.log
+  *.cache
+  *.lock
+# Project exclude paths
+/.gradle/
+/build/
+/build/classes/java/main/
